@@ -80,7 +80,7 @@ function Game() {
     <div className="game">
       <div className="game-board">
         <Board onClick={selectSquare} squares={currentSquares} />
-        <button className="restart" onClick={restart()}>
+        <button className="restart" onClick={restart}>
           restart
         </button>
       </div>
